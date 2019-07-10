@@ -79,6 +79,9 @@ a.r-m-plus-small {
 		.whatsapp-link {
 			background-image: url(../../images/social/whatsapp-hover.png);
 		}
+		.mail-link {
+			background-image: url(../../images/icon_footer_mail-black.png);
+		}
 		.dribbble-link {
 			background-image: url(../../images/social/dribbble-hover.png);
 		}
@@ -400,6 +403,10 @@ a {
 		}
 		.whatsapp-link {
 			background-image: url(../../images/social/whatsapp-hover.png);
+			background-size:24px  auto;
+		}
+		.mail-link {
+			background-image: url(../../images/icon_footer_mail-black.png);
 			background-size:24px  auto;
 		}
 		.dribbble-link {

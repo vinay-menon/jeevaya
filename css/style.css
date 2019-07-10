@@ -98,7 +98,7 @@ ul.social-links li {
     list-style: none outside none;
 	float:left;
 }
-.facebook-link, .skype-link, .twitter-link, .flickr-link, .vimeo-link, .dribbble-link, .linkedin-link, .rss-link, .googleplus-link, .pintrest-link, .whatsapp-link  {
+.facebook-link, .skype-link, .twitter-link, .flickr-link, .vimeo-link, .dribbble-link, .linkedin-link, .rss-link, .googleplus-link, .pintrest-link, .whatsapp-link, .mail-link  {
 	height:56px;
 	width:56px;
 	display:block;
@@ -111,7 +111,7 @@ ul.social-links li {
 	-moz-transition: all 0.3s; 
 	-ms-transition: all 0.3s;
 }
-.facebook-link:hover, .skype-link:hover, .twitter-link:hover, .flickr-link:hover, .vimeo-link:hover, .dribbble-link:hover, .linkedin-link:hover, .rss-link:hover, .googleplus-link:hover, .pintrest-link:hover , .whatsapp-link:hover {
+.facebook-link:hover, .skype-link:hover, .twitter-link:hover, .flickr-link:hover, .vimeo-link:hover, .dribbble-link:hover, .linkedin-link:hover, .rss-link:hover, .googleplus-link:hover, .pintrest-link:hover , .whatsapp-link:hover, .mail-link:hover {
 	background-color:#2f343a;
 }
 .facebook-link {
@@ -119,6 +119,9 @@ ul.social-links li {
 }
 .whatsapp-link {
 	background-image: url(../images/social/whatsapp.png);
+}
+.mail-link {
+	background-image: url(../images/icon_footer_mail-black.png);
 }
 .skype-link {
 	background-image: url(../images/social/skype.png);	
@@ -152,6 +155,9 @@ ul.social-links li {
 }
 .whatsapp-link:hover {
 	background-image: url(../images/social/whatsapp-hover.png);
+}
+.mail-link:hover {
+	background-image: url(../images/icon_footer_mail-black.png);
 }
 .skype-link:hover {
 	background-image: url(../images/social/skype-hover.png);	
@@ -4481,6 +4487,10 @@ a:hover {
 		}
 		.whatsapp-link {
 			background-image: url(../images/social/whatsapp.png);
+			background-size:24px  auto;
+		}
+		.mail-link {
+			background-image: url(../images/icon_footer_mail-black.png);
 			background-size:24px  auto;
 		}
 		.dribbble-link {
